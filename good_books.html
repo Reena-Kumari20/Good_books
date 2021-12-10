@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body background="https://torange.biz/photofxnew/230/HD/books-powerpoint-template-background-230264.jpg">
+    <center>
+      <br><br>
+      <h1>📖 Good Books📖</h1>
+      <b><p>Check out my favorite books. Select a genre to get started</p></b>
+      <hr style="height: 2px;border-width:0;color:gray;background-color:blue">
+      <button id="try1" >JavaScript</button>
+      <button id="try2">function</button>
+      <button id="try3">business</button>
+    </center>
+    <h1 id="text"></h1>
+    <script>
+    document.getElementById("try1").addEventListener("click", function(){
+    document.getElementById("text").innerHTML = "<center>Elequent JavaScript<br>4/5<br><br>You Don't know JS<br>3.5/5</center>";
+});
+    document.getElementById("try2").addEventListener("click", function(){
+    document.getElementById("text").innerHTML = "<center>Shiva Trilogy<br>5/5<br><br>Harry Potter and the Sorcers Stone<br>4.5/5</center>";
+});
+    document.getElementById("try3").addEventListener("click", function(){
+    document.getElementById("text").innerHTML = "<center>Never split the difference<br>3.5/5<br><br>Loonshots<br>5/5</center>";
+});
+    </script>
+</body>
+  
+</html>  
