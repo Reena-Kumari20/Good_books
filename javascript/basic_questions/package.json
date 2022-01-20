@@ -1,0 +1,12 @@
+{
+  "name": "basic_questions",
+  "version": "1.0.0",
+  "description": "practical",
+  "main": "finding_the_percentage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "reena",
+  "license": "ISC"
+}

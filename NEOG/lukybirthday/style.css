@@ -1,0 +1,24 @@
+label {
+      color:red;
+      font-size: 40px;
+
+      }
+      h1{
+          font-size: 50px;
+      }
+      input {
+          width: 20%;
+          height: initial;
+          }
+      button {
+          background-color:palevioletred; 
+          color:black;
+          padding: 15px 32px;
+          text-align: center;
+          font-size: 16px;
+          border-color: maroon;
+          }
+      output {
+          display: inline;
+          font-size: 50px;
+          }

@@ -1,0 +1,21 @@
+nav{
+      display:flexbox;
+      align-items: center;
+      font-size:initial;
+      justify-content: space-between;
+      padding: 30px;
+      background-color: teal;
+      flex-direction: initial;
+      color: black;
+     }
+     footer {
+      font-size: medium;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: teal;
+      color: black;
+      text-align: center;
+    }
+    

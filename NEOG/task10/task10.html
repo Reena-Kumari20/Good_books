@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mark10 - Cash Register Manager</title>
+    <style>
+          p {
+            text-align: center;
+            font-size: 32px;
+            }
+
+            caption{
+            font-size: 40px;
+            }
+    </style>
+  </head>
+  <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJehsGzQ0aIMAvM5Ops3f2WUywfe4X5qJ9ylkmOs5V9UWHxNX3tRJ3eLRPb2dMSPBiP2A&usqp=CAU">
+      <main>
+            <div>
+                  <center><h1>Cash Register Manager</h1></center>
+                  <hr style="height: 2px;border-width:0;color:gray;background-color:blue">
+                  
+                  <center>
+                        <b><p>
+                              Enter the bill amount and cash given by the customer and know minimumnumber of notes to return.
+                        </p></b>
+                        <h2 style="font-family:inherit;">Bill Amount</h2>
+                        <input class="input" id="bill-amount" type="text" /><br><br><br>
+                        <h2 style="font-family:Chaparral Pro Light;">Cash Given</h2>
+                        <input class="input" id="cash-given" type="text" /><br><br>
+                        <b><button id="check-button" >Check</button></b>
+                        <p id="error-message"></p>
+                        <table class="change-table">
+                        <caption >
+                              Return Change
+                        </caption>
+                  <tr>
+                        <br><br>
+                        <th>No of Notes</th>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                  </tr>
+                  <br><br>
+                  <tr>
+                        <th>Note</th>
+                        <td>2000</td>
+                        <td>500</td>
+                        <td>100</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>1</td>
+                  </tr>
+                  </table>
+                  </div>
+            </center>
+            </main>
+       <script src="task10.js" type="text/javascript"></script>
+</body>
+</html>
